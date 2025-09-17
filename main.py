@@ -6,6 +6,7 @@ import os
 from assets.imageload import imageloadfunc, imagelist, imagenum
 pygame.init()
 from pygame import mixer
+os.environ["SDL_AUDIODRIVER"] = "dummy"
 mixer.init()
 
 text_font = pygame.font.Font(None, 30)
