@@ -364,7 +364,7 @@ def startingstats():
   return PlayerLives, Player1_x1, Player1_y1, Player1_Speed, Player1_SpeedCap, Player1_MoveBy, Player1_Checkpoint, PlayerDirection, JumpHeight, progression
 
 songc = ''
-def musicloop(music = 'Music/Build.mp3'):
+def musicloop(music = 'Music/Build.ogg'):
   global songc
   if not music == songc:
     stop_music()
